@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class A {
+    public int x;
+    public A() {
+       System.out.println("Hello");
+    }
+    
+    void inputX () {
+        Scanner input = new Scanner(System.in);
+        System.out.println("x number: ");
+        x = input.nextInt();
+        sumTwelve();
+        evenOdd();
+
+    }
+    
+  
+    void sumTwelve(){
+        System.out.println("x + 12 = " + ( x +12));
+    }
+
+    void  evenOdd(){
+        if (x%2 == 0) System.out.println("x is Even" );
+        else System.out.println("x is Odd" );
+        // System.out.println(value);
+    }
+}
