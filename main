@@ -1,0 +1,11 @@
+public class Main {
+
+    public static void main(String[] args) {
+	    A myObj = new A();
+	    B secObj = new B();
+	    myObj.inputX();
+      secObj.inputY();
+      secObj.sum(myObj.x);
+      
+    }
+}
