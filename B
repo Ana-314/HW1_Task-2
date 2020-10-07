@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class B extends A {
+    int y;
+    void inputY () {
+        Scanner input = new Scanner(System.in);
+        System.out.println("y number: ");
+        y = input.nextInt();
+    }
+
+    void sum(int a){
+        System.out.println("y + x = " + (a + y));
+    }
+}
